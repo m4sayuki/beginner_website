@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+}
+
+/* headerのh1とliの間隔を調整 */
+header h1{
+  margin-right: 200px;
+}
+
+/* liの間隔を調整 */
+header li {
+  margin-right: 20px;
+}
+
+.menu img{
+  display: none;
+}
+
+main h1 {
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+/* メインの画像の大きさを調整 */
+img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+#About div {
+  justify-content: center;
+  width: 90%;
+}
+
+.info {
+  margin: 0 auto;
+}
+
+#News div{
+  display: flex;
+}
+
+#News p {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 5px;
+}
+
+.column1{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.column1 img {
+  width: 80%;;
+  height: 100%;
+}
+
+.column2{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+#News div {
+  justify-content: center;
+}
+
+.column2 img {
+  width: 80%;;
+  height: 100%;
+  margin-right: 10%;
+}
+
+#Contact div {
+  display: flex;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.name {
+  height: 30px;
+}
+
+.email {
+  height: 30px;
+}
+
+.message {
+  height: 150px;
+}
+
+.contents {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.contents-block {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.content-value {
+  width: 80%;
+}
+
+.content-label {
+  width: 100px;
+  font-size: large;
+}
+
+.contents p {
+  margin-left: 10%;
+}
+
+#message {
+  height: 9em;
+}
+
+.submitbutton {
+  width: 25%;
+  height: 20%;
+  margin: 20px auto 0;
+  background: #001733;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.submitbutton:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #001733;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 5%;
+  margin: 5% 0;
+}
+
+@media screen and (max-width: 780px) {
+  .menu {
+    display: none;
+  }
+}
